@@ -3,29 +3,29 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container">
+    <div className="Container" style={{padding: 0}}>
       <Nav>
         <Logo to="/">
           <img
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/logo.png"
+            src="/logo.png"
             alt="logo"
           />
         </Logo>
         <NavMenu>
-          <NavLink className="menu-item" to="projects" smooth={true}>
+          <NavLink className="menu-item" to="projects">
             Projects
           </NavLink>
-          <NavLink className="menu-item" to="about" smooth={true}>
+          <NavLink className="menu-item" to="about">
             About
           </NavLink>
-          <NavLink className="menu-item" to="contact" smooth={true}>
+          <NavLink className="menu-item" to="contact">
             Contact
           </NavLink>
         </NavMenu>
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/gurupawar/"
+            href="https://linkedin.com/in/pedro-sales-muniz"
             target="_blank"
             rel="noopener noreferrer"
           >

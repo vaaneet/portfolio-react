@@ -66,6 +66,9 @@ export const HeroLeft = styled.div`
     text-align: center;
     align-items: center;
     margin-bottom: 2rem;
+
+    h5 {
+      min-height: 5rem;
   }
 `;
 
@@ -97,14 +100,16 @@ const ScrollAnimation = keyframes`
 `;
 
 export const ScrollDown = styled(LinkScroll)`
-  margin-top: 3rem;
   display: flex;
   justify-content: flex-start;
   cursor: pointer;
+  position: absolute;
 
   animation: ${ScrollAnimation} 2s linear 0s infinite;
   @media screen and (max-width: 992px) {
+    position: relative;
     justify-content: center;
+    margin-top: 2rem;
   }
 `;
 

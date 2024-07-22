@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 export const ContactWrapper = styled.div`
   margin-top: 5rem;
@@ -29,8 +29,9 @@ export const Tech = styled.div`
 `;
 
 export const TechImg = styled.img`
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
+  padding-bottom: 5px;
 `;
 
 export const TechName = styled.div`

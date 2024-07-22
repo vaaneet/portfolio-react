@@ -1,7 +1,6 @@
 import { FaBars } from "react-icons/fa";
-import { Link as LinkRouter } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 export const Nav = styled.nav`
   background: transparent;
@@ -23,7 +22,7 @@ export const NavLink = styled(ScrollLink)`
     color: #f6f6f6;
   }
 `;
-export const Logo = styled(LinkRouter)`
+export const Logo = styled('div')`
   img {
     width: 47px;
     height: 47px;
@@ -53,7 +52,7 @@ export const NavMenu = styled.div`
   }
 `;
 
-export const NavBtn = styled.nav`
+export const NavBtn = styled.div`
   display: flex;
   align-items: center;
   margin-right: 24px;

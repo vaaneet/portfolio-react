@@ -1,12 +1,15 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 export const Card = styled.div`
   display: grid;
   grid-gap: 2rem;
   margin-bottom: 4rem;
   grid-template-columns: 1fr;
-  border-bottom: 1px solid rgb(0, 0, 0);
   padding-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
     border-bottom: 0;
@@ -15,14 +18,10 @@ export const Card = styled.div`
 `;
 
 export const CardLeft = styled.div`
-  background: #151418;
-  border-radius: 5px;
-  padding: 5px;
   justify-self: center;
-
+  height: 100%;
   img {
-    border-radius: 3px;
-    height: auto;
+    object-fit: cover;
   }
 `;
 
@@ -39,7 +38,7 @@ export const CardRight = styled.div`
 
   p {
     font-weight: 400;
-    max-width: 400px;
+    max-width: 95%;
     margin-top: 10px;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.815);
@@ -55,25 +54,32 @@ export const CardRight = styled.div`
   }
 `;
 
-export const Stack = styled.div`
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-
-  .stackTitle {
-    font-weight: 500;
-    margin-right: 10px;
-    font-size: 17px;
-  }
-
-  .tags {
-    font-size: 15px;
-    font-weight: 400;
-  }
-`;
-
 export const BtnGroup = styled.div`
   height: 70px;
   display: flex;
   align-items: center;
+`;
+
+export const TechCardContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (min-width: 992px) {
+    justify-content: flex-start;
+  }
+`;
+
+export const TechCard = styled.div`
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.815);
+  cursor: default;
+  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
 `;
