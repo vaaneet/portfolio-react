@@ -23,13 +23,13 @@ export const Tech = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100px;
-  min-width: 100px;
+  max-width: 150px;
+  min-width: 150px;
   margin-bottom: 2rem;
 `;
 
 export const TechImg = styled.img`
-  height: 40px;
+  height: 48px;
   width: 40px;
   padding-bottom: 5px;
 `;

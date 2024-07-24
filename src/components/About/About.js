@@ -51,7 +51,7 @@ function About() {
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
-            </ScrollAnimation>
+            </ScrollAnimation> */}
             
 
             <Technologies>
@@ -63,7 +63,7 @@ function About() {
                   </Tech>
                 </ScrollAnimation>
               ))}
-            </Technologies> */}
+            </Technologies>
           </div>
 
         </div>
