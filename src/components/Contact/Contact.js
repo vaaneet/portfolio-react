@@ -20,7 +20,7 @@ function Contact() {
 
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
-        <ScrollAnimation animateIn="fadeIn" >
+        <ScrollAnimation animateOnce animateIn="fadeIn" >
           <div className="BigCard">
             <Email>
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
