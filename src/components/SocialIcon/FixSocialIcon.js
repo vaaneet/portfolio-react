@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaEnvelopeSquare, FaPhone } from "react-icons/fa";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -54,7 +54,7 @@ const SocialContainer = styled.div`
 function FixSocialIcon() {
   return (
     <SocialContainer>
-      <ScrollAnimation animateOnce animateIn="fadeIn" animateOnce={true}>
+      <ScrollAnimation animateOnce animateIn="fadeIn">
         <ul>
           <li className="item">
             <a
@@ -67,11 +67,20 @@ function FixSocialIcon() {
           </li>
           <li className="item">
             <a
-              href="https://github.com/vaaneet"
+              href="mailto:vaanetkapoor@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub />
+              <FaEnvelopeSquare />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="tel: 7303437485"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPhone />
             </a>
           </li>
         </ul>

@@ -6,6 +6,7 @@ function Projects() {
       <svg
         height="100%"
         width="100%"
+        className="ProjectWrapper"
         id="svg"
         viewBox="0 0 1440 400"
         xmlns="http://www.w3.org/2000/svg"
