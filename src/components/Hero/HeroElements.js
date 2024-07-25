@@ -51,7 +51,7 @@ export const HeroLeft = styled.div`
 
   h5 {
     font-size: 1.6rem;
-    color: rgb(119, 119, 121);
+    color: #dad4d4;
     margin-bottom: 1rem;
     font-weight: 400;
   }

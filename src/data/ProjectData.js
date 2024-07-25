@@ -43,7 +43,7 @@ export const ProjectList = [
       "The Amberstudent.com product teardown analyzes its user interface, features, and overall experience. It assesses performance across devices and customer support, identifying areas for improvement to boost user satisfaction.",
     // tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
     // github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://docs.google.com/presentation/d/1WF_emg1eNrFbkerSifRTIVPXOMXCngaXh1yUwR2ntAg/edit?usp=sharing",
+    demo_url: "https://drive.google.com/file/d/1EodCY1nf08aFtmCJw_QlmhDqjGvmLRYO/view?usp=sharing",
   },
 
 ];
