@@ -73,7 +73,7 @@ export const HeroLeft = styled.div`
 `;
 
 export const HeroRight = styled.div`
-  flex: 1;
+  flex: none;
   justify-content: center;
   display: flex;
 `;
