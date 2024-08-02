@@ -2,6 +2,8 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
+import { Tooltip } from "@mui/material";
+
 
 const SiderBar = styled.div`
   background: #151418;
@@ -83,16 +85,18 @@ function Dropdown({ isOpen, toggle }) {
           Contact
         </NavLink>
       </NavMenu>
-      {/* <NavBtn onClick={toggle}>
-        <a
-          className="btn PrimaryBtn"
-          href="https://www.linkedin.com/in/vaaneetkapoor"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
-      </NavBtn> */}
+      <NavBtn onClick={toggle}>
+        <Tooltip title="Please request access using your email address.">
+          <a
+            className="btn PrimaryBtn"
+            href="https://drive.google.com/file/d/1czC_4zdqPbkApFYLShsQQnxOEN3CbT9t/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </Tooltip>
+      </NavBtn>
     </SiderBar>
   );
 }

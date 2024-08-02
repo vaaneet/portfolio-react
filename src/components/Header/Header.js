@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu } from "./HeaderElements";
+import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Tooltip } from "@mui/material";
 
 const Header = ({ toggle }) => {
   return (
@@ -22,16 +23,18 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        {/* <NavBtn>
+        <NavBtn>
+        <Tooltip title="Please request access using your email address.">
           <a
             className="btn PrimaryBtn"
-            href="https://www.linkedin.com/in/vaaneetkapoor"
+            href="https://drive.google.com/file/d/1czC_4zdqPbkApFYLShsQQnxOEN3CbT9t/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
             Resume
           </a>
-        </NavBtn> */}
+          </Tooltip>
+        </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
     </div>
