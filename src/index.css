@@ -119,8 +119,8 @@ video {
 .BigCard {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 2px;
+  padding-left: 2px;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
